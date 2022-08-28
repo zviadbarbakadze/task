@@ -1,0 +1,13 @@
+:root{
+    --blue:#62A1EB;
+    --white:#FFFFFF;
+    --grey:#E5E5E5;
+    --grey-select:#EBEBEB;
+    --dark-black:#232323;
+    --light-black:#2E2E2E;
+    --light-blue:#0089A7;
+    --sky:#8AC0E2;
+    --placeholder-grey:rgba(0, 0, 0, 0.6);
+    --hint-color:rgba(46, 46, 46, 1);
+    --hint-red:#E52F2F;
+}

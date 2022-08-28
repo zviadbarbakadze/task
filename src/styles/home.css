@@ -1,0 +1,58 @@
+@import "./colors.css";
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo{
+    margin-top: 87px;
+    margin-bottom: 80px;
+    width: 112px;
+    height: 18px;
+}
+.home-image{
+    background: url(../assets/home-image.jpg);
+    width: 781px;
+    height: 482px;
+    margin-bottom: 120px;
+}
+.home-button{
+    background-color: var(--blue);
+    color: var(--white);
+    width: 387px;
+    height: 60px;
+    border-radius: 8px;
+    padding: 18px 60px;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.42px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 26px;
+}
+.home-container :last-child{
+    margin-bottom: 147px;
+}
+@media(max-width:390px){
+.home-image{
+    background: url(../assets/mobile-home-image.jpg);
+    width: 268.58px;
+    height: 349px;
+    margin-bottom: 122px;
+    
+}
+.logo{
+    margin-top: 67px;
+    margin-bottom: 117px;
+}
+.home-button{
+    width: 358px;
+    margin-bottom: 16px;
+}
+.home-container :last-child{
+    margin-bottom: 35px;
+}
+}
