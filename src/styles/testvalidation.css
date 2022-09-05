@@ -1,0 +1,34 @@
+.name-cont{
+    display: flex;
+    flex-direction: column;
+    width: 500px;;
+}
+.red{
+    color: red;
+}
+.lastred{
+    color: red;
+}
+.inputred{
+  border:2px solid red;
+outline: none;
+}
+.lastinputred{
+    border:2px solid red;
+    outline: none;
+}
+.last-error-message{
+    color: red;
+}
+.select{
+    outline: none;
+    border: 2px solid red;
+}
+.email-cont{
+    display: flex;
+    flex-direction: column;
+}
+.email-error{
+    outline: none;
+    border:2px solid red;
+}

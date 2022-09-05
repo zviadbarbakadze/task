@@ -1,0 +1,47 @@
+@import "./colors.css";
+
+.pop-body{
+    background-color: var(--popapp);
+    min-height: 100vh;
+    display: grid;
+}
+.pop-messgae-container{
+    background-color: white;
+    width: 847px;
+    height: 537px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pop-text{
+    font-size: 25px;
+    color: var(--pop-text);
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 79px;
+}
+.move-list-button{
+    width: 297px;
+    height: 60px;
+    border: none;
+    
+    border-radius: 8px;
+    color: white;
+    background-color: var(--blue);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 46px;
+}
+.pop-mainpage-button{
+ background-color: white;
+ border: none;
+ color: var(--light-blue);
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 24px;
+ cursor: pointer;
+}

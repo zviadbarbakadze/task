@@ -7,7 +7,14 @@
     --light-black:#2E2E2E;
     --light-blue:#0089A7;
     --sky:#8AC0E2;
-    --placeholder-grey:rgba(0, 0, 0, 0.6);
+    --placeholder-gray:rgba(0, 0, 0, 0.6);
     --hint-color:rgba(46, 46, 46, 1);
     --hint-red:#E52F2F;
+    --photo-upload:#F6F6F6;
+    --photo-border:#4386A9;
+    --laptop-border:#C7C7C7;
+    --radio-border:#4D9AC3;
+    --popapp:#4A4A4A;
+    --pop-text:#292929;
+    --page-span:#898989;
 }

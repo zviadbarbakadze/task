@@ -7,16 +7,16 @@
     
 }
 .logo{
-    margin-top: 87px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 112px;
     height: 18px;
 }
 .home-image{
     background: url(../assets/home-image.jpg);
     width: 781px;
-    height: 482px;
-    margin-bottom: 120px;
+    height: 350px;
+    margin-bottom: 50px;
 }
 .home-button{
     background-color: var(--blue);
@@ -34,25 +34,25 @@
     margin-bottom: 26px;
 }
 .home-container :last-child{
-    margin-bottom: 147px;
+    margin-bottom: 20px;
 }
 @media(max-width:390px){
 .home-image{
     background: url(../assets/mobile-home-image.jpg);
     width: 268.58px;
-    height: 349px;
-    margin-bottom: 122px;
+    height: 300px;
+    margin-bottom: 80px;
     
 }
 .logo{
-    margin-top: 67px;
-    margin-bottom: 117px;
+    margin-top: 37px;
+    margin-bottom: 40px;
 }
 .home-button{
     width: 358px;
     margin-bottom: 16px;
 }
 .home-container :last-child{
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 }
